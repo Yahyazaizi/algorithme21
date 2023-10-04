@@ -1,0 +1,19 @@
+Algorithme-ex-31
+Variables n, i, U, Up, Upp: entier
+Début
+Répeter
+Ecrire ("Veuillez saisir la valeur de n: ")
+Lire (n)
+Jusqu'à n >= 2
+Upp <-- 0
+Up <-- 1
+Ecrire ("Les termes de la suite de Fibonacci sont: ")
+Ecrire (Upp)
+Ecrire (Up)
+Pour i <-- 2 à n pas 1 faire
+U <-- Upp + Upa
+Ecrire (U)
+Upp <-- Up
+Up <-- U
+fin Pour
+Fin
